@@ -1,14 +1,15 @@
 import Link from 'next/link'
 import styled from 'styled-components'
+import NavStyles from "./styles/NavStyles";
 
 
 function Nav() {
-  return (<nav>
+  return (<NavStyles>
     <Link href="/products">Products</Link>
     <Link href="/sell">Sell</Link>
     <Link href="/orders">Orders</Link>
     <Link href="/account">Account</Link>
-  </nav>)
+  </NavStyles>)
 }
 
 export default Nav
